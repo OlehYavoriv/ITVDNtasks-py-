@@ -1,0 +1,6 @@
+def function(name=''):
+    if name:
+        print("hello",name)
+    else:
+        print("hello user!")
+function(name='')
