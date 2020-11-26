@@ -1,0 +1,34 @@
+print("Welcome to calculator!")
+while True:
+    chyslo1 = float(input("Input first number:"))
+    diya = input("Input operation('+','-','*','/'):")
+    chyslo2 = float(input("Input second number:"))
+    break
+    
+def add(chyslo1,chyslo2):
+    return chyslo1+chyslo2
+    
+def subtract(chyslo1,chyslo2):
+    return chyslo1-chyslo2
+    
+def multiply(chyslo1,chyslo2):
+    return chyslo1*chyslo2
+    
+def divide(chyslo1,chyslo2):
+    return chyslo1/chyslo2
+
+if diya == "/" and chyslo2 == 0:
+        print("You cannot divide by zero!")
+        exit()
+if diya == '+':
+    result_one = add(chyslo1, chyslo2)
+    print("Result:", result_one)
+elif diya == '-':
+    result_two = subtract(chyslo1, chyslo2)
+    print("Result:", result_two)
+elif diya == '*':
+    result_three = multiply(chyslo1, chyslo2)
+    print("Result:", result_three)
+elif diya == '/':
+    result_four = divide(chyslo1, chyslo2)
+    print("Result:", result_four)
