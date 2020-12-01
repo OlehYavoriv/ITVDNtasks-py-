@@ -1,0 +1,9 @@
+while True:
+    user1 = float(input("Input one number:"))
+    user2 = float(input("Input two number:"))
+    user3 = float(input("Input three number:"))
+    break
+def math(chyslo1,chyslo2,chyslo3):
+    return (chyslo1+chyslo2+chyslo3)/3
+result = math(user1,user2,user3)
+print("Result:",result)
